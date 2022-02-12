@@ -5,16 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Player</title>
-    <link rel="stylesheet" href="musicCss.css"
+    <link rel="stylesheet" href="musicCss.css">
 </head>
 <body>
     <nav>
         <ul>
-            <li class="brand"><img src="logo.png" alt="music"></li>
+            <li class="brand"><img src="logo.png" alt="music">
+            Music Player</li>
             <li>Home</li>
             <li>About</li>
 
         </ul>
     </nav>
+    <div class="container">
+       
+        <img src="background.jpg" alt=""width="1260" height="450">
+    </div>
+   
+    <div class="bottom">
+       
+        <input type="range" name="range" id="progressBar" min="0" max="100" >
+        
+            <button id="btn">
+                play
+            </button>
+        
+    </div>
+   
+     
+    <script src="musicJs.js"></script>
 </body>
 </html>

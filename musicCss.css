@@ -8,7 +8,56 @@ body{
     padding: 0;
 }
 
-nav ul{
+nav {
    font-family: 'Ubuntu', sans-serif;
 }
-na
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: antiquewhite;
+    
+}
+.brand img{
+     
+     width: 50px;
+     padding: 0 5px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.bottom{
+    
+    position: sticky;
+    height: 100px;
+    background-color: antiquewhite;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#btn{
+    margin-top: 10px;
+    
+}
+.container{
+    min-height: 440px;
+    
+}
+#progressBar{
+  
+    width: 500px;
+    position: sticky;
+    height: 50px;
+}
+
+
